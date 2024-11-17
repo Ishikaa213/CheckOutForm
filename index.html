@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Checkout Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="checkout-container">
+    <div class="checkout-header">
+      <h2>Checkout</h2>
+      <p>Complete your purchase below</p>
+    </div>
+    
+    <form>
+      <div class="form-group">
+        <input type="text" id="name" placeholder=" " required>
+        <label for="name">Full Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder=" " required>
+        <label for="email">Email Address</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="address" placeholder=" " required>
+        <label for="address">Shipping Address</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="city" placeholder=" " required>
+        <label for="city">City</label>
+      </div>
+
+      <div class="form-group card-info">
+        <div class="form-group-half">
+          <input type="text" id="card-number" placeholder=" " required>
+          <label for="card-number">Card Number</label>
+        </div>
+
+        <div class="form-group-half">
+          <input type="text" id="expiry-date" placeholder=" " required>
+          <label for="expiry-date">Expiry Date</label>
+        </div>
+      </div>
+
+      <div class="form-group card-info">
+        <div class="form-group-half">
+          <input type="text" id="cvc" placeholder=" " required>
+          <label for="cvc">CVC</label>
+        </div>
+
+        <div class="form-group-half">
+          <input type="text" id="zip" placeholder=" " required>
+          <label for="zip">ZIP Code</label>
+        </div>
+      </div>
+
+      <button type="submit" class="checkout-button">Place Order</button>
+    </form>
+  </div>
+
+</body>
+</html>
